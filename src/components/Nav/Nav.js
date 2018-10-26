@@ -13,7 +13,7 @@ export default function Nav(props) {
             return (
             <div>
                 <Link to='/dashboard'>Home</Link>
-                <Link to='/post/:postid'>New Post</Link>
+                <Link to='/posts'>New Post</Link>
                 <Link to='/'>Logout</Link>
             </div>
             )
